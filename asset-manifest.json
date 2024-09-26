@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/binflix-react/static/css/main.e9ee448e.css",
+    "main.js": "/binflix-react/static/js/main.3a77f12b.js",
+    "static/js/453.8f1d96bf.chunk.js": "/binflix-react/static/js/453.8f1d96bf.chunk.js",
+    "index.html": "/binflix-react/index.html",
+    "main.e9ee448e.css.map": "/binflix-react/static/css/main.e9ee448e.css.map",
+    "main.3a77f12b.js.map": "/binflix-react/static/js/main.3a77f12b.js.map",
+    "453.8f1d96bf.chunk.js.map": "/binflix-react/static/js/453.8f1d96bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9ee448e.css",
+    "static/js/main.3a77f12b.js"
+  ]
+}
