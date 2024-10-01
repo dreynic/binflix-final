@@ -23,14 +23,17 @@ const [popularMovies, setPopularMovies] = useState([])
           <div className="movie-title">{movie.title}</div>
           <img src={`${imgUrl}${movie.poster_path}`} alt="" className="movie-image" />
           <div className="movie-date">{movie.release_date}</div>
-          <div className="movie-rating">{movie.vote_average}</div>
+          <div className="movie-rating">&#9733; {movie.vote_average}</div>
         </div>
       )
     })
   }
 
-  const search = (q) => {
-    console.log({q})
+  const search = async(q) => {
+    if (q.length > 3) {
+      const query = await searchMovie(q)
+      setPopularMovies(query.results)
+    }
   }
 
   return (

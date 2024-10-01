@@ -10,6 +10,8 @@ export const getMovieList = async () => {
 }
 
 export const searchMovie = async (q) => {
-    const movie = await axios.get(q)
-    return
+    const search = await axios.get(`${baseUrl}/search/movie?query=${q}&api_key=${apiKey}`)
+    // Sort results by release date in descending order (latest first)
+    search.data.results.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+    return search.data
 }
