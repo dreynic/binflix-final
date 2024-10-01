@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/binflix/static/css/main.ffc5cf27.css",
-    "main.js": "/binflix/static/js/main.83f4df51.js",
-    "static/js/453.8f1d96bf.chunk.js": "/binflix/static/js/453.8f1d96bf.chunk.js",
-    "index.html": "/binflix/index.html",
-    "main.ffc5cf27.css.map": "/binflix/static/css/main.ffc5cf27.css.map",
-    "main.83f4df51.js.map": "/binflix/static/js/main.83f4df51.js.map",
-    "453.8f1d96bf.chunk.js.map": "/binflix/static/js/453.8f1d96bf.chunk.js.map"
+    "main.css": "/binflix-final/static/css/main.ffc5cf27.css",
+    "main.js": "/binflix-final/static/js/main.f942a937.js",
+    "static/js/453.8f1d96bf.chunk.js": "/binflix-final/static/js/453.8f1d96bf.chunk.js",
+    "index.html": "/binflix-final/index.html",
+    "main.ffc5cf27.css.map": "/binflix-final/static/css/main.ffc5cf27.css.map",
+    "main.f942a937.js.map": "/binflix-final/static/js/main.f942a937.js.map",
+    "453.8f1d96bf.chunk.js.map": "/binflix-final/static/js/453.8f1d96bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffc5cf27.css",
-    "static/js/main.83f4df51.js"
+    "static/js/main.f942a937.js"
   ]
 }
